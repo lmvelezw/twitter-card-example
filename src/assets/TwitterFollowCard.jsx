@@ -1,7 +1,7 @@
 import { useState } from "react";
 import React from 'react';
 
-function TwitterFollowCard({ children, userName = 'Deleted user', initialIsFollowing }) {
+function TwitterFollowCard({ children, userName = 'Unknown', initialIsFollowing }) {
   const [isFollowing, setIsFollowing] = useState(initialIsFollowing);
   const [isHovered, setIsHovered] = useState(false);
 

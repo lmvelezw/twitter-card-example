@@ -2,8 +2,6 @@ import React from "react";
 import TwitterFollowCard from "./assets/TwitterFollowCard";
 
 function App() {
-  const formatUserName = (userName) => `@${userName}`;
-  
 
   return (
     <section className="flex flex-col gap-4">
